@@ -1,0 +1,71 @@
+.home-container {
+    height: 100vh;
+    width: 100%;
+    background: linear-gradient(to bottom, #000, #000, #606c88);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.max-width-container {
+    max-width: 960px;
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+}
+
+.text-container {
+    flex: 1;
+    max-width: 600px;
+    padding-right: 1rem;
+}
+
+.title {
+    font-size: 2rem;
+    font-weight: bold;
+    color: white;
+
+}
+
+.description {
+    color: #a0aec0;
+    padding: 1rem 0;
+
+}
+
+.portfolio-button {
+    display: inline-block;
+    font-weight: bold;
+    cursor: pointer;
+    padding: 0.75rem 1.5rem;
+    margin-top: 1rem;
+    background: linear-gradient(to right, #48bb78, #48bb78, #2a9d8f);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.arrow {
+    transition: transform 0.3s;
+    display: inline-block;
+    margin-left: 0.5rem;
+}
+
+.portfolio-button:hover .arrow {
+    transform: rotate(90deg);
+}
+
+.image-container {
+    flex: 1;
+    max-width: 300px;
+}
+
+.profile-image {
+    width: 80%;
+    height: auto;
+    border-radius: 15px;
+}
